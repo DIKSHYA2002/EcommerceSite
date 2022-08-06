@@ -1,0 +1,44 @@
+[
+  {
+    "id": "c201a328-5fe9-4f11-b441-bb1a57dcd98f",
+    "name": "apple",
+    "price": 12,
+    "description": "it is red is colour "
+  },
+  {
+    "id": "fe32e2b8-7d1e-4432-b8c3-f1a0a39e8881",
+    "name": "notebook",
+    "price": 569,
+    "description": "classmate , single line copy, pages:500 "
+  },
+  {
+    "id": "3189e4c7-7732-4dc0-99b4-9c241c83b7d7",
+    "name": "rings",
+    "price": 45,
+    "description": "element:golden size 15 "
+  },
+  {
+    "id": "b2cd84d3-4761-47ff-a3e8-b07289d9b1bd",
+    "name": "wires",
+    "price": 48,
+    "description": "copper 5 m"
+  },
+  {
+    "id": "b1cb915d-3f79-4678-8aaa-9c480761dc3e",
+    "name": "books",
+    "price": 550,
+    "description": "name: data structure and algorithm , author : a k publications "
+  },
+  {
+    "id": "a152e3e5-96b8-4207-ade1-966e0618a6a9",
+    "name": "notepad",
+    "price": 34,
+    "description": " 15cm in length and has 100 pages"
+  },
+  {
+    "id": "bf8a9332-f1d1-4f54-bc31-d1ee0aba025d",
+    "name": "yoghurt",
+    "price": 15,
+    "description": "white in color "
+  }
+]
