@@ -1,0 +1,132 @@
+
+ul{
+    list-style-type: none;
+   display: flex;
+   flex-direction: row;
+   text-transform: capitalize;
+   font-size: 20px;
+}
+li{
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.header_Container{
+  background-color: rgb(255, 255, 255);
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+a:hover{
+   color: brown;
+}
+img{
+    height: 100px;
+    
+    width: 130px;
+    margin-left: 50px;
+   
+}
+.cart_items{
+   float:left;
+   width: 30%;
+   height: 100vh;
+   margin: 10px;
+   text-align: center;
+   border-radius: 30px 0 30px 0;
+   background-color: rgb(214, 213, 213);
+   padding: 10px;
+   overflow: hidden;
+}
+.cart_items .itemimage{
+    min-height: 300px;
+    min-width: 300px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.itemname{
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top: -20px;
+}
+.itemprice {
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-top: -20px;
+}
+.itemdescription {
+    font-size: 15px;
+    background-color: rgb(81, 81, 81);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 15px;
+}
+.btns .edit,.DELETE,.buyNow{
+    padding: 20px;
+    width: 100px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.btns .edit{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.btns .DELETE{
+    background-color: BLACK;
+    color: white;
+}
+.buyNow{
+    background-color: black;
+    color: white;
+}
+@media screen and (max-width:900px) 
+{
+    img{
+        height: 80px; 
+        width: 80px;
+       margin-left: 15px;
+    }
+    ul{
+        
+       display: flex;
+       flex-direction: row;
+       font-size: 10px;
+       margin: 0;
+       padding-top: 10px;
+    
+    }
+    li{
+        margin-left: -25px;
+    }
+    .header_Container{
+        background-color: rgb(255, 255, 255);
+        height: 100px;
+        width: 95%;
+        display: flex;
+        justify-content:center;
+        overflow: hidden;
+      }
+    
+    .cart_items{
+       padding: 20px;
+       width: 90%;
+       height: 800px;
+       overflow-x: none;
+    }
+    
+}
+@media screen and (max-width:1200px) and (min-width :900px) {
+    .cart_items{
+       padding: 20px;
+       width: 43%;
+      height: 700px;
+       float: left;
+       overflow-x: none;
+    }
+    
+}

@@ -1,0 +1,45 @@
+.footer {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+  }
+  .footer  .Contact{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    border-right: 1px white solid;
+  
+  }
+  .footer .socialicons ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .footer .socialicons li{
+    font-size: 30px;
+  }
+  .footer .about{
+    padding: 30px;
+    text-align: start;
+    line-height: 30px;
+    border-right: 1px white solid;
+  }
+  .footer .newsletter  input[type='email']{
+    margin: 10px;
+  }
+  .btn-subscribe{
+    background-color: red;
+    padding: 10px;
+  }
+  

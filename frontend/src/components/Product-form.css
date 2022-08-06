@@ -1,0 +1,71 @@
+
+.form-container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px black solid;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://wallpaperaccess.com/full/5379742.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   color: white;
+
+}
+
+.form-container form
+{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+   
+}
+
+.fm{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    text-align: center;
+}
+input[type=text] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+input[type=submit] {
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+input[type=submit]:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+ 
+ .title{
+    padding-bottom: 10px;
+    text-transform: uppercase;
+ }
+ h1{
+    font-size: 30px;
+    border: 3px solid white;
+    text-transform: uppercase;
+    padding: 5px; 
+ }
+ .error{
+    color:red;
+ }
+ .HOME{
+    background-color: black;
+    color: white;
+ }
